@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1280" viewBox="0 0 900 1280">
+<defs>
+ <linearGradient id="paper" x1="0" y1="0" x2="0.9" y2="1"><stop stop-color="#fff8e9"/><stop offset="1" stop-color="#f0d9b8"/></linearGradient>
+ <linearGradient id="gold"><stop stop-color="#9b6c32"/><stop offset=".5" stop-color="#e4c27d"/><stop offset="1" stop-color="#9b6c32"/></linearGradient>
+ <pattern id="texture" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M0 21 Q21 0 42 21 Q21 42 0 21Z" fill="none" stroke="#c59c61" stroke-opacity=".09"/></pattern>
+</defs>
+<rect width="900" height="1280" fill="#5a1727"/>
+<rect x="23" y="23" width="854" height="1234" rx="5" fill="url(#paper)" stroke="url(#gold)" stroke-width="4"/>
+<rect x="42" y="42" width="816" height="1196" fill="url(#texture)" stroke="#a77a43" stroke-width="1.4"/>
+<g fill="none" stroke="url(#gold)" stroke-width="2">
+ <path d="M70 250 Q70 70 250 70 M650 70 Q830 70 830 250 M70 1030 Q70 1210 250 1210 M650 1210 Q830 1210 830 1030"/>
+ <path d="M85 260 Q85 85 260 85 M640 85 Q815 85 815 260 M85 1020 Q85 1195 260 1195 M640 1195 Q815 1195 815 1020"/>
+</g>
+<g fill="#7a1e31" font-family="Georgia,serif" text-anchor="middle">
+ <text x="450" y="125" font-size="20" letter-spacing="6">WITH THE BLESSINGS OF OUR FAMILIES</text>
+ <text x="450" y="205" font-size="54" font-style="italic">Chaman Shreyas</text>
+ <text x="450" y="260" font-size="35" fill="#b18a4d">&amp;</text>
+ <text x="450" y="323" font-size="58" font-style="italic">Lekhana</text>
+ <text x="450" y="374" font-size="18" letter-spacing="5">CORDIALLY INVITE YOU</text>
+ <text x="450" y="437" font-size="26">to celebrate their reception</text>
+ <text x="450" y="485" font-size="21">with family and friends</text>
+</g>
+<g transform="translate(450 610)">
+ <circle r="105" fill="#6e1b2c" stroke="url(#gold)" stroke-width="5"/>
+ <circle r="91" fill="none" stroke="#e4c27d" stroke-width="1.5"/>
+ <g fill="#f2dcae" font-family="Georgia,serif" text-anchor="middle">
+  <text y="-10" font-size="43" font-style="italic">C ♡ L</text>
+  <text y="27" font-size="12" letter-spacing="3">TOGETHER</text>
+ </g>
+ <g fill="none" stroke="#b48b4f" stroke-width="2">
+  <path d="M-175 0 Q-135 -40 -100 0 Q-135 40 -175 0 M175 0 Q135 -40 100 0 Q135 40 175 0"/>
+  <path d="M-215 0 H-185 M185 0 H215"/>
+ </g>
+</g>
+<g fill="#7a1e31" font-family="Georgia,serif" text-anchor="middle">
+ <text x="450" y="805" font-size="20" letter-spacing="5">RECEPTION</text>
+ <text x="450" y="870" font-size="42">19 November 2026</text>
+ <text x="450" y="914" font-size="22">Thursday · 7:00 PM onwards</text>
+ <path d="M250 950 H650" stroke="#b18a4d" stroke-width="1.5"/>
+ <text x="450" y="1000" font-size="24">Sri Annapoorneshwari</text>
+ <text x="450" y="1036" font-size="24">Kalyana Mantapa</text>
+ <text x="450" y="1075" font-size="20">M.G. Road, Hassan, Karnataka</text>
+ <text x="450" y="1150" font-size="18" font-style="italic">Your presence will make our day special</text>
+</g>
+<g fill="#b18a4d">
+ <path d="M110 530 q-35 -30 -10 -58 q30 20 10 58 M790 530 q35 -30 10 -58 q-30 20 -10 58"/>
+ <circle cx="110" cy="530" r="7"/><circle cx="790" cy="530" r="7"/>
+ <path d="M110 700 q-40 -25 -15 -55 q30 20 15 55 M790 700 q40 -25 15 -55 q-30 20 -15 55"/>
+</g>
+</svg>
