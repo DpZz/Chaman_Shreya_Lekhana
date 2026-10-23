@@ -30,3 +30,193 @@ h1,h2,h3{font-family:"Playfair Display",Georgia,serif;font-weight:500}h1{font-si
 @media(max-width:760px){.hero{min-height:690px}.nav{height:70px;padding:0 18px}.nav-links{gap:12px;font-size:8px;letter-spacing:.8px}.monogram{font-size:31px}.nav-whatsapp{width:38px;height:38px}.nav-whatsapp svg{width:23px;height:23px}.hero-content{padding:100px 18px 80px}h1{font-size:clamp(43px,10vw,67px)}.lamp{font-size:42px;top:55%}.lamp-left{left:2%}.lamp-right{right:2%}.detail-card{display:grid;grid-template-columns:35px 1fr;gap:12px;padding:25px 18px}.detail-separator{display:none}.detail-card h3{font-size:19px}.detail-card .detail-icon{grid-column:1;grid-row:auto}.detail-card>div:not(.detail-icon){grid-column:2}.detail-card>div:nth-of-type(3){margin-top:8px}.gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.photo-slot{min-height:190px}.venue-card{grid-template-columns:1fr}.venue-art{min-height:170px;border-right:0;border-bottom:1px solid #d1aa6a}.venue-info{padding:28px 23px}.whatsapp-float{right:16px;bottom:16px;width:56px;height:56px}.whatsapp-float svg{width:31px;height:31px}.formal-border{padding:45px 16px}.formal-copy{font-size:18px}.formal-border h2{font-size:42px}}
 @media(max-width:400px){.nav-links{gap:8px;font-size:7px}.nav{padding:0 12px}.monogram{font-size:27px}.nav-whatsapp{width:34px;height:34px}.hero-tag{letter-spacing:3px}.envelope{height:220px}.wax-seal{width:65px;height:65px}.gallery-grid{gap:8px}.photo-slot{min-height:160px}.whatsapp-float{right:12px;bottom:12px;width:52px;height:52px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+
+/* Mobile reception details and venue layout */
+@media (max-width: 760px) {
+  .details-section {
+    padding: 0 14px 34px;
+  }
+
+  .detail-card {
+    display: grid;
+    grid-template-columns: 34px minmax(0, 1fr);
+    align-items: center;
+    gap: 0 12px;
+    padding: 20px 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 22px rgba(106, 57, 27, 0.09);
+  }
+
+  .detail-card .detail-icon {
+    width: 30px;
+    grid-column: 1;
+    align-self: start;
+    margin-top: 4px;
+  }
+
+  .detail-card .detail-icon svg {
+    width: 27px;
+    height: 27px;
+  }
+
+  .detail-card > div:not(.detail-icon) {
+    grid-column: 2;
+    min-width: 0;
+    padding: 2px 0 15px;
+  }
+
+  .detail-card .detail-label {
+    font-size: 9px;
+    letter-spacing: 1.8px;
+    margin-bottom: 3px;
+  }
+
+  .detail-card h3 {
+    font-size: clamp(17px, 4.5vw, 20px);
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+  }
+
+  .detail-card p:not(.detail-label) {
+    font-size: 14px;
+    line-height: 1.45;
+  }
+
+  .detail-separator {
+    display: none;
+  }
+
+  /* Venue section */
+  .venue-section {
+    padding: 42px 14px 48px;
+  }
+
+  .venue-card {
+    margin: 22px auto 0;
+    grid-template-columns: minmax(0, 1fr);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .venue-art {
+    min-height: 125px;
+    border-right: 0;
+    border-bottom: 1px solid #d1aa6a;
+  }
+
+  .venue-art span {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+
+  .venue-art b {
+    font-size: 10px;
+    letter-spacing: 4px;
+  }
+
+  .venue-art small {
+    font-size: 8px;
+    letter-spacing: 2px;
+  }
+
+  .venue-info {
+    padding: 23px 19px 24px;
+    text-align: center;
+  }
+
+  .venue-info h3 {
+    font-size: clamp(22px, 6vw, 28px);
+    line-height: 1.25;
+    overflow-wrap: anywhere;
+  }
+
+  .venue-info p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 7px 0;
+  }
+
+  .map-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 48px;
+    margin-top: 17px;
+    padding: 12px 14px;
+    border-radius: 5px;
+    font-size: 10px;
+    letter-spacing: 0.4px;
+  }
+
+  /* Photos */
+  .gallery-section {
+    padding: 48px 14px 54px;
+  }
+
+  .gallery-grid {
+    margin-top: 24px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .photo-slot {
+    min-width: 0;
+    min-height: clamp(145px, 43vw, 190px);
+    border-radius: 5px;
+  }
+
+  .photo-slot b {
+    font-size: 16px;
+  }
+
+  /* Floating WhatsApp button */
+  .whatsapp-float {
+    right: 14px;
+    bottom: 14px;
+    width: 54px;
+    height: 54px;
+  }
+}
+
+/* Extra-small phones */
+@media (max-width: 380px) {
+  .details-section {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .detail-card {
+    padding: 17px 12px;
+    grid-template-columns: 29px minmax(0, 1fr);
+    gap: 0 9px;
+  }
+
+  .detail-card .detail-icon svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .detail-card h3 {
+    font-size: 17px;
+  }
+
+  .venue-section {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .venue-info {
+    padding: 20px 14px;
+  }
+
+  .map-button {
+    font-size: 9px;
+  }
+
+  .gallery-section {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
